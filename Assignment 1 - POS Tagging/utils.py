@@ -17,20 +17,23 @@ def get_batches(X, Y, batch=32):
     Q, R = N // batch, N % batch
     for i in range(Q):
         X_batch.append(X[i*batch:(i+1)*batch, :])
-        Y_batch.append(Y[i*batch:(i+1)*batch, :])
+        Y_batch.append(Y[i*batch:(i+1)*batch])
     if R != 0 :
         X_batch.append(X[Q*batch:, :])
-        Y_batch.append(Y[Q*batch:, :])
+        Y_batch.append(Y[Q*batch:])
     return X_batch, Y_batch
 
+def split_util(X, train_ratio=0.8):
+    slic = int(X.shape[0] * min(max(train_ratio, 0.0), 1.0))
+    X_train, X_test = X[:slic], X[slic:]
+    return X_train, X_test
+
 def split_data(X, Y, train_ratio=0.8):
-    slic = int(Y.shape[0] * min(max(train_ratio, 0.0), 1.0))
-    X_train, Y_train = X[:slic], Y[:slic]
-    X_test, Y_test = X[slic:], Y[slic:]
+    X_train, X_test = split_util(X, train_ratio)
+    Y_train, Y_test = split_util(Y, train_ratio)
     return X_train, Y_train, X_test, Y_test
 
-def one_hot_encode(X):
-    labels = sorted(list(set(X)))
+def one_hot_encode(X, labels):
     X.shape = (X.shape[0], 1)
     newX = np.zeros((X.shape[0], len(labels)))
     label_encoding = {}
@@ -43,6 +46,9 @@ def one_hot_encode(X):
 def normalize(X):
     return (X - np.mean(X)) / np.std(X)
 
+def untag(tagged_sent):
+    return [word for word, tag in tagged_sent]
+
 def preprocess(X, Y):
     N, D = X.shape
     X_new = [np.ones((N, ), dtype=np.float64)]
@@ -53,7 +59,8 @@ def preprocess(X, Y):
             new_cols = normalize(col)
             X_new.append(new_cols)
         except ValueError:
-            new_cols = one_hot_encode(col)
+            labels = sorted(list(set(col)))
+            new_cols = one_hot_encode(col, labels)
             for j in range(new_cols.shape[1]):
                 X_new.append(new_cols[:, j])
     X_new = np.array(X_new).T
