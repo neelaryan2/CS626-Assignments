@@ -1,0 +1,100 @@
+to 2011 {('ADP', 'PRT'): 1333, ('PRT', 'ADP'): 676, ('ADV', 'PRT'): 1, ('X', 'ADP'): 1}
+that 659 {('DET', 'ADP'): 228, ('ADP', 'PRON'): 69, ('PRON', 'ADP'): 306, ('ADV', 'DET'): 1, ('ADP', 'DET'): 32, ('ADV', 'ADP'): 10, ('PRON', 'DET'): 7, ('DET', 'PRON'): 6}
+as 261 {('ADV', 'ADP'): 186, ('ADP', 'ADV'): 75}
+her 186 {('PRON', 'DET'): 119, ('DET', 'PRON'): 67}
+more 130 {('ADJ', 'ADV'): 99, ('ADV', 'ADJ'): 31}
+on 119 {('PRT', 'ADP'): 116, ('ADP', 'PRT'): 3}
+in 97 {('PRT', 'ADP'): 95, ('X', 'ADP'): 2}
+so 92 {('ADV', 'ADP'): 43, ('ADP', 'ADV'): 49}
+one 90 {('NOUN', 'NUM'): 73, ('NUM', 'NOUN'): 17}
+out 89 {('ADP', 'PRT'): 57, ('PRT', 'ADP'): 31, ('DET', 'ADP'): 1}
+over 75 {('PRT', 'ADP'): 57, ('ADP', 'PRT'): 18}
+about 75 {('ADV', 'ADP'): 47, ('ADP', 'ADV'): 26, ('PRT', 'ADP'): 1, ('PRT', 'ADV'): 1}
+such 70 {('ADJ', 'PRT'): 6, ('PRT', 'ADJ'): 59, ('ADV', 'ADJ'): 3, ('ADJ', 'ADV'): 2}
+much 63 {('ADV', 'ADJ'): 31, ('ADJ', 'ADV'): 32}
+there 62 {('ADV', 'PRT'): 43, ('PRT', 'ADV'): 19}
+like 51 {('VERB', 'ADP'): 41, ('ADP', 'VERB'): 6, ('ADJ', 'ADP'): 4}
+right 49 {('ADJ', 'ADV'): 11, ('ADJ', 'NOUN'): 19, ('ADV', 'ADJ'): 11, ('NOUN', 'ADV'): 4, ('NOUN', 'ADJ'): 4}
+around 47 {('ADP', 'ADV'): 31, ('ADV', 'ADP'): 16}
+down 45 {('ADP', 'PRT'): 31, ('PRT', 'NOUN'): 1, ('PRT', 'ADP'): 11, ('VERB', 'ADP'): 1, ('ADJ', 'ADP'): 1}
+all 45 {('ADV', 'PRT'): 42, ('PRT', 'ADV'): 3}
+no 42 {('ADV', 'DET'): 33, ('DET', 'ADV'): 9}
+To 38 {('ADP', 'PRT'): 34, ('PRT', 'ADP'): 4}
+long 35 {('VERB', 'ADJ'): 2, ('ADJ', 'ADV'): 10, ('ADV', 'ADJ'): 23}
+up 34 {('ADP', 'PRT'): 32, ('PRT', 'ADP'): 2}
+less 34 {('ADV', 'ADJ'): 23, ('ADJ', 'ADV'): 11}
+because 34 {('ADV', 'ADP'): 32, ('ADP', 'ADV'): 2}
+most 31 {('ADJ', 'ADV'): 20, ('ADV', 'ADJ'): 11}
+first 30 {('ADV', 'ADJ'): 15, ('ADJ', 'ADV'): 15}
+better 29 {('ADV', 'ADJ'): 21, ('ADJ', 'ADV'): 7, ('VERB', 'ADJ'): 1}
+off 28 {('PRT', 'ADP'): 14, ('ADP', 'PRT'): 14}
+but 28 {('CONJ', 'ADP'): 13, ('CONJ', 'ADV'): 3, ('ADP', 'CONJ'): 9, ('ADV', 'CONJ'): 3}
+only 27 {('ADJ', 'ADV'): 23, ('ADV', 'ADJ'): 4}
+before 26 {('ADP', 'ADV'): 10, ('ADV', 'ADP'): 16}
+present 25 {('VERB', 'ADJ'): 6, ('ADV', 'ADJ'): 6, ('ADJ', 'ADV'): 4, ('VERB', 'ADV'): 4, ('NOUN', 'ADJ'): 3, ('ADJ', 'NOUN'): 1, ('ADV', 'VERB'): 1}
+along 25 {('ADP', 'ADV'): 6, ('ADV', 'ADP'): 19}
+public 25 {('NOUN', 'ADJ'): 18, ('ADJ', 'NOUN'): 7}
+past 24 {('NOUN', 'ADJ'): 18, ('ADJ', 'NOUN'): 1, ('ADJ', 'ADP'): 3, ('ADV', 'ADP'): 2}
+little 24 {('ADV', 'ADJ'): 24}
+rather 23 {('ADV', 'ADP'): 15, ('ADP', 'ADV'): 8}
+individual 21 {('ADJ', 'NOUN'): 2, ('NOUN', 'ADJ'): 19}
+will 20 {('NOUN', 'VERB'): 9, ('VERB', 'NOUN'): 11}
+English 20 {('NOUN', 'ADJ'): 13, ('ADJ', 'NOUN'): 7}
+light 19 {('ADJ', 'NOUN'): 8, ('NOUN', 'ADJ'): 5, ('NOUN', 'VERB'): 3, ('ADJ', 'VERB'): 2, ('VERB', 'NOUN'): 1}
+total 19 {('ADJ', 'NOUN'): 13, ('NOUN', 'ADJ'): 5, ('VERB', 'ADJ'): 1}
+left 19 {('NOUN', 'ADJ'): 3, ('VERB', 'ADJ'): 2, ('NOUN', 'VERB'): 3, ('ADJ', 'NOUN'): 6, ('ADJ', 'VERB'): 5}
+very 19 {('ADJ', 'ADV'): 18, ('ADV', 'ADJ'): 1}
+outside 18 {('ADP', 'ADJ'): 1, ('NOUN', 'ADP'): 2, ('ADV', 'ADP'): 9, ('ADJ', 'ADP'): 2, ('ADJ', 'NOUN'): 3, ('ADP', 'ADV'): 1}
+longer 17 {('ADV', 'ADJ'): 13, ('ADJ', 'ADV'): 4}
+Yet 17 {('CONJ', 'ADV'): 17}
+close 17 {('VERB', 'ADV'): 7, ('ADV', 'ADJ'): 4, ('ADJ', 'NOUN'): 1, ('ADJ', 'ADV'): 4, ('VERB', 'ADJ'): 1}
+best 17 {('ADV', 'ADJ'): 11, ('ADJ', 'ADV'): 6}
+help 17 {('PRT', 'VERB'): 1, ('NOUN', 'VERB'): 6, ('VERB', 'NOUN'): 10}
+early 16 {('ADV', 'ADJ'): 10, ('ADJ', 'ADV'): 6}
+One 16 {('NOUN', 'NUM'): 16}
+high 16 {('ADV', 'ADJ'): 10, ('NOUN', 'ADJ'): 3, ('ADJ', 'ADV'): 2, ('ADV', 'NOUN'): 1}
+through 15 {('PRT', 'ADP'): 15}
+back 15 {('NOUN', 'ADV'): 1, ('ADJ', 'NOUN'): 3, ('VERB', 'ADV'): 6, ('ADJ', 'ADV'): 2, ('ADV', 'NOUN'): 1, ('ADV', 'VERB'): 1, ('NOUN', 'VERB'): 1}
+work 15 {('NOUN', 'VERB'): 8, ('VERB', 'NOUN'): 7}
+So 15 {('ADP', 'ADV'): 14, ('PRT', 'ADV'): 1}
+use 15 {('VERB', 'NOUN'): 10, ('NOUN', 'VERB'): 5}
+once 15 {('ADP', 'ADV'): 11, ('ADV', 'ADP'): 4}
+above 15 {('ADV', 'ADP'): 7, ('ADP', 'ADV'): 8}
+either 14 {('DET', 'CONJ'): 3, ('ADV', 'CONJ'): 5, ('CONJ', 'DET'): 4, ('CONJ', 'ADV'): 2}
+open 14 {('ADV', 'ADJ'): 3, ('VERB', 'ADJ'): 10, ('NOUN', 'ADJ'): 1}
+No 14 {('ADV', 'DET'): 6, ('DET', 'ADV'): 8}
+next 13 {('ADP', 'ADJ'): 2, ('ADJ', 'ADV'): 3, ('ADV', 'ADP'): 2, ('ADJ', 'ADP'): 2, ('ADV', 'ADJ'): 4}
+enough 13 {('ADV', 'ADJ'): 8, ('ADJ', 'ADV'): 5}
+A 13 {('DET', 'NOUN'): 9, ('NOUN', 'DET'): 4}
+say 13 {('VERB', 'PRT'): 3, ('VERB', 'NOUN'): 9, ('NOUN', 'VERB'): 1}
+them 13 {('DET', 'PRON'): 4, ('PRON', 'DET'): 8, ('X', 'PRON'): 1}
+inside 12 {('ADV', 'ADP'): 7, ('ADP', 'ADV'): 2, ('ADV', 'ADJ'): 1, ('ADJ', 'NOUN'): 1, ('ADP', 'ADJ'): 1}
+sound 12 {('ADJ', 'NOUN'): 5, ('NOUN', 'VERB'): 1, ('ADJ', 'VERB'): 1, ('NOUN', 'ADJ'): 1, ('VERB', 'NOUN'): 2, ('VERB', 'ADJ'): 2}
+upon 12 {('ADV', 'ADP'): 12}
+Well 12 {('ADV', 'PRT'): 11, ('ADJ', 'PRT'): 1}
+far 12 {('ADJ', 'ADV'): 6, ('ADV', 'ADJ'): 6}
+whole 12 {('NOUN', 'ADJ'): 12}
+West 12 {('ADJ', 'NOUN'): 10, ('NOUN', 'ADJ'): 2}
+last 12 {('ADV', 'ADJ'): 1, ('ADJ', 'ADV'): 3, ('ADJ', 'VERB'): 2, ('VERB', 'ADJ'): 6}
+even 12 {('ADV', 'ADJ'): 5, ('ADJ', 'ADV'): 2, ('VERB', 'ADV'): 5}
+yet 11 {('CONJ', 'ADV'): 5, ('ADV', 'CONJ'): 6}
+good 11 {('ADV', 'ADJ'): 1, ('ADJ', 'ADV'): 1, ('NOUN', 'ADJ'): 6, ('ADJ', 'NOUN'): 3}
+minimum 11 {('NOUN', 'ADJ'): 8, ('ADJ', 'NOUN'): 3}
+neither 11 {('ADV', 'CONJ'): 3, ('DET', 'CONJ'): 2, ('CONJ', 'ADV'): 1, ('CONJ', 'DET'): 5}
+quite 10 {('PRT', 'ADV'): 6, ('ADV', 'PRT'): 4}
+German 10 {('ADJ', 'NOUN'): 4, ('NOUN', 'ADJ'): 6}
+well 10 {('PRT', 'ADV'): 2, ('ADV', 'ADJ'): 3, ('ADV', 'NOUN'): 2, ('NOUN', 'ADV'): 2, ('ADJ', 'ADV'): 1}
+by 10 {('ADV', 'ADP'): 10}
+further 10 {('ADJ', 'ADV'): 3, ('ADV', 'ADJ'): 7}
+training 9 {('VERB', 'NOUN'): 6, ('NOUN', 'VERB'): 3}
+hard 9 {('ADV', 'ADJ'): 6, ('ADJ', 'ADV'): 3}
+North 9 {('NOUN', 'ADJ'): 5, ('ADJ', 'NOUN'): 4}
+average 9 {('ADJ', 'NOUN'): 5, ('NOUN', 'ADJ'): 3, ('VERB', 'NOUN'): 1}
+objective 9 {('ADJ', 'NOUN'): 6, ('NOUN', 'ADJ'): 3}
+second 9 {('ADJ', 'NOUN'): 2, ('NOUN', 'ADJ'): 7}
+As 9 {('ADV', 'ADP'): 8, ('ADP', 'ADV'): 1}
+French 9 {('ADJ', 'NOUN'): 2, ('NOUN', 'ADJ'): 7}
+place 9 {('VERB', 'NOUN'): 5, ('NOUN', 'VERB'): 4}
+All 9 {('PRT', 'ADV'): 3, ('ADV', 'PRT'): 6}
+Such 9 {('PRT', 'ADJ'): 9}
+top 9 {('VERB', 'NOUN'): 1, ('ADJ', 'NOUN'): 6, ('NOUN', 'ADJ'): 1, ('ADJ', 'VERB'): 1}
