@@ -1,0 +1,1 @@
+Please install sklearn-crfsuite. Also import glove embeddings list and dataset at the correct path. The requirements are common for both.
