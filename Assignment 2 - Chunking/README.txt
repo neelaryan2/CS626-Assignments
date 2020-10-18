@@ -16,7 +16,9 @@ CRF
 	- GloVe Embeddings	: https://www.kaggle.com/rtatman/glove-global-vectors-for-word-representation
 
 MEMM
-- The complete code for SVM resides in the 'SVM_POS_tagger.ipynb' jupyter notebook.
+- For MEMM please change the accelerator to TPU (takes a few minutes)
 - Running all the cells in the notebook will plot all the graphs like confusion matrix, classification report and tag scores.
 - Preferable to run the code on kaggle as it already has all the packages compatible with the notebook.
-- The notebook has no external dependencies except the python modules imported inside the code itself.
+- The CONLL data and the GloVe Embeddings are already present on kaggle which can be attached 
+	- CONLL Corpora		:https://www.kaggle.com/nltkdata/conll-corpora
+	- GloVe Embeddings	:https://www.kaggle.com/watts2/glove6b50dtxt
