@@ -8,8 +8,6 @@ BiLSTM
 	- CONLL Corpora 	: https://www.kaggle.com/nltkdata/conll-corpora
 	- GloVe Embeddings 	: https://www.kaggle.com/pkugoodspeed/nlpword2vecembeddingspretrained
 
-Guys, Edit your points here.
-
 CRF
 - For CRF, CPU is sufficient.
 - Preferable to run the code on kaggle as it already has all the packages compatible with the notebook.
