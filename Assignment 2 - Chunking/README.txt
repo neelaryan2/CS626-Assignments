@@ -11,9 +11,11 @@ BiLSTM
 Guys, Edit your points here.
 
 CRF
-- For HMM, CPU is sufficient.
+- For CRF, CPU is sufficient.
 - Preferable to run the code on kaggle as it already has all the packages compatible with the notebook.
 - Running all the cells in the notebook will plot all the graphs like confusion matrix, classification report and tag scores.
+	-CONLL Corpora		: https://www.kaggle.com/alirehan/conll-2k-chunking
+	-GloVe Embeddings	: https://www.kaggle.com/rtatman/glove-global-vectors-for-word-representation
 
 MEMM
 - The complete code for SVM resides in the 'SVM_POS_tagger.ipynb' jupyter notebook.
