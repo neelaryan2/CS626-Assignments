@@ -1,0 +1,1263 @@
+              S                             
+  ____________|___________________________   
+ |            VP                          | 
+ |    ________|________                   |  
+ |   |    |           SBAR                | 
+ |   |    |    ________|____              |  
+ |   |    |   |             S             | 
+ |   |    |   |     ________|___          |  
+ |   |    |   |    |            VP        | 
+ |   |    |   |    |         ___|____     |  
+ NP  |    NP  |    NP       |        VP   | 
+ |   |    |   |    |        |        |    |  
+PRP VBD  PRP  IN  PRP      VBP      VBG   . 
+ |   |    |   |    |        |        |    |  
+ I  told him that  I        am     going  . 
+
+
+
+                              S (told)                                                            
+    _____________________________|_____________________________________________________________    
+   |                         VP (told)                                                         |  
+   |         ____________________|__________________                                           |   
+   |        |          |                       SBAR (going)                                    |  
+   |        |          |          __________________|___________                               |   
+   |        |          |         |                          S (going)                          |  
+   |        |          |         |         _____________________|_________                     |   
+   |        |          |         |        |                           VP (going)               |  
+   |        |          |         |        |                      _________|___________         |   
+ NP (I)     |       NP (him)     |      NP (I)                  |                 VP (going)   |  
+   |        |          |         |        |                     |                     |        |   
+PRP (I) VBD (told) PRP (him) IN (that) PRP (I)               VBP (am)            VBG (going) . (.)
+   |        |          |         |        |                     |                     |        |   
+   I       told       him       that      I                     am                  going      .  
+
+
+
+I nsubj told PRON []
+told ROOT told VERB [I, him, going, .]
+him dobj told PRON []
+that mark going SCONJ []
+I nsubj going PRON []
+am aux going AUX []
+going ccomp told VERB [that, I, am]
+. punct told PUNCT []
+        told               
+  _______|__________        
+ |   |   |        going    
+ |   |   |     _____|____   
+ I  him  .   that   I    am
+
+
+
+I nsubj told PRON []
+told ROOT told VERB [I, him, going, .]
+him dobj told PRON []
+that <UNK> going ADP []
+I nsubj going PRON []
+am aux going VERB []
+going ccomp told VERB [that, I, am]
+. punct told PUNCT []
+        told               
+  _______|__________        
+ |   |   |        going    
+ |   |   |     _____|____   
+ I  him  .   that   I    am
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                                S                               
+  ______________________________|_____________________________   
+ |                              VP                            | 
+ |             _________________|__________                   |  
+ |            VP                |          |                  | 
+ |    ________|___              |          |                  |  
+ |   |            PP            |          VP                 | 
+ |   |     _______|___          |     _____|___________       |  
+ NP  |    |           NP        |    |     |   |      ADVP    | 
+ |   |    |        ___|____     |    |     |   |       |      |  
+PRP VBD   TO      DT       NN   CC  VBD    CC VBD      RB     . 
+ |   |    |       |        |    |    |     |   |       |      |  
+ He flew  to     the     field and kicked and died painfully  . 
+
+
+
+                                                                      S (flew)                                                           
+    _____________________________________________________________________|____________________________________________________________    
+   |                                                                 VP (flew)                                                        |  
+   |                             ________________________________________|_______________________                                     |   
+   |                        VP (flew)                                    |                       |                                    |  
+   |          __________________|________                                |                       |                                    |   
+   |         |                        PP (to)                            |                  VP (kicked)                               |  
+   |         |          _________________|_________                      |           ____________|________________________            |   
+NP (He)      |         |                       NP (field)                |          |            |          |      ADVP (painfully)   |  
+   |         |         |                  _________|__________           |          |            |          |             |           |   
+PRP (He) VBD (flew) TO (to)           DT (the)            NN (field)  CC (and) VBD (kicked)   CC (and)  VBD (died)  RB (painfully)  . (.)
+   |         |         |                 |                    |          |          |            |          |             |           |   
+   He       flew       to               the                 field       and       kicked        and        died       painfully       .  
+
+
+
+He nsubj flew PRON []
+flew ROOT flew VERB [He, to, and, kicked, .]
+to prep flew PART [field]
+the det field DET []
+field pobj to NOUN [the]
+and cc flew CCONJ []
+kicked conj flew VERB [and, died]
+and cc kicked CCONJ []
+died conj kicked VERB [painfully]
+painfully advmod died ADV []
+. punct flew PUNCT []
+        flew                           
+  _______|_______________               
+ |   |   |     to      kicked          
+ |   |   |     |     ____|________      
+ |   |   |   field  |            died  
+ |   |   |     |    |             |     
+ He and  .    the  and        painfully
+
+
+
+He nsubj flew PRON []
+flew ROOT flew VERB [He, to, and, kicked, .]
+to prep flew PART [field]
+the det field DET []
+field pobj to NOUN [the]
+and cc flew CCONJ []
+kicked conj flew VERB [and, died, painfully]
+and cc kicked CCONJ []
+died conj kicked VERB []
+painfully advmod kicked ADV []
+. punct flew PUNCT []
+             flew                     
+  ____________|_________               
+ |   |   |    to        |             
+ |   |   |    |         |              
+ |   |   |  field     kicked          
+ |   |   |    |     ____|________      
+ He and  .   the  and  died  painfully
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                 S                                 
+  _______________|_______________________________   
+ |               VP                              | 
+ |           ____|________________               |  
+ |          |          |          VP             | 
+ |          |          |     _____|______        |  
+ NP         VP         |    |           ADVP     | 
+ |     _____|____      |    |            |       |  
+PRP  VBD    CC  VBD    CC  VBD           RB      . 
+ |    |     |    |     |    |            |       |  
+ He walked and kicked but talked     cheerfully  . 
+
+
+
+                                   S (walked)                                                           
+    ___________________________________|_____________________________________________________________    
+   |                              VP (walked)                                                        |  
+   |                        ___________|__________________________________                           |   
+   |                       |                      |                  VP (talked)                     |  
+   |                       |                      |           ____________|______________            |   
+NP (He)               VP (walked)                 |          |                   ADVP (cheerfully)   |  
+   |           ____________|___________           |          |                           |           |   
+PRP (He) VBD (walked)   CC (and)  VBD (kicked) CC (but) VBD (talked)              RB (cheerfully)  . (.)
+   |          |            |           |          |          |                           |           |   
+   He       walked        and        kicked      but       talked                    cheerfully      .  
+
+
+
+He nsubj walked PRON []
+walked ROOT walked VERB [He, and, kicked, .]
+and cc walked CCONJ []
+kicked conj walked VERB [but, talked]
+but cc kicked CCONJ []
+talked conj kicked VERB [cheerfully]
+cheerfully advmod talked ADV []
+. punct walked PUNCT []
+        walked                      
+  ________|__________                
+ |   |    |        kicked           
+ |   |    |      ____|________       
+ |   |    |     |           talked  
+ |   |    |     |             |      
+ He and   .    but        cheerfully
+
+
+
+He nsubj walked PRON []
+walked ROOT walked VERB [He, and, kicked, but, talked, .]
+and cc walked CCONJ []
+kicked conj walked VERB []
+but cc walked CCONJ []
+talked conj walked VERB [cheerfully]
+cheerfully advmod talked ADV []
+. punct walked PUNCT []
+        walked                   
+  ________|________________       
+ |   |    |     |   |    talked  
+ |   |    |     |   |      |      
+ He and kicked but  .  cheerfully
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                S                        
+            ____|______________________   
+           NP                 VP       | 
+  _________|_________     ____|___     |  
+ |        ADJP       |   |       ADVP  | 
+ |     ____|____     |   |        |    |  
+ DT   JJ   CC   JJ   NN VBD       RB   . 
+ |    |    |    |    |   |        |    |  
+The young and  wild kid fell     down  . 
+
+
+
+                                  S (fell)                                                
+                          ___________|_________________________________________________    
+                      NP (kid)                                 VP (fell)               |  
+    _____________________|____________________           __________|__________         |   
+   |                ADJP (young)              |         |                ADVP (down)   |  
+   |          ___________|___________         |         |                     |        |   
+DT (The) JJ (young)   CC (and)   JJ (wild) NN (kid) VBD (fell)            RB (down)  . (.)
+   |         |           |           |        |         |                     |        |   
+  The      young        and         wild     kid       fell                  down      .  
+
+
+
+The det kid DET []
+young amod kid ADJ [and, wild]
+and cc young CCONJ []
+wild conj young ADJ []
+kid nsubj fell NOUN [The, young]
+fell ROOT fell VERB [kid, down, .]
+down prt fell ADV []
+. punct fell PUNCT []
+         fell               
+  ________|____              
+ |    |       kid           
+ |    |    ____|____         
+ |    |   |       young     
+ |    |   |     ____|____    
+down  .  The  and       wild
+
+
+
+The det kid DET []
+young amod kid ADJ [and, wild]
+and cc young CCONJ []
+wild conj young ADJ []
+kid nsubj fell NOUN [The, young]
+fell ROOT fell VERB [kid, down, .]
+down advmod fell ADV []
+. punct fell PUNCT []
+         fell               
+  ________|____              
+ |    |       kid           
+ |    |    ____|____         
+ |    |   |       young     
+ |    |   |     ____|____    
+down  .  The  and       wild
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  S                                                    
+  ________________________________|__________________________________________________   
+ |                                VP                                                 | 
+ |    ____________________________|_____                                             |  
+ |   |                                  PP                                           | 
+ |   |                       ___________|________________________________            |  
+ |   |                      PP                               |           |           | 
+ |   |          ____________|___________                     |           |           |  
+ |   |         PP           |           PP                   |           PP          | 
+ |   |     ____|___         |      _____|___                 |      _____|___        |  
+ NP  |    |        NP       |     |         NP               |     |         NP      | 
+ |   |    |     ___|___     |     |      ___|_______         |     |      ___|___    |  
+PRP VBD   IN   DT      JJ   CC    IN    DT          NN       CC    IN    DT      NN  . 
+ |   |    |    |       |    |     |     |           |        |     |     |       |   |  
+ He went into the     wild and through the     civilization and towards the     sun  . 
+
+
+
+                                                                        S (went)                                                                                                              
+    _______________________________________________________________________|_______________________________________________________________________________________________________________    
+   |                                                                   VP (went)                                                                                                           |  
+   |          _____________________________________________________________|____________                                                                                                   |   
+   |         |                                                                      PP (into)                                                                                              |  
+   |         |                                                   _______________________|______________________________________________________________________                            |   
+   |         |                                              PP (into)                                                                  |                       |                           |  
+   |         |                     _____________________________|_______________________                                               |                       |                           |   
+   |         |                PP (into)                         |                  PP (through)                                        |                  PP (towards)                     |  
+   |         |           _________|_________                    |           ____________|_______________                               |           ____________|__________                 |   
+NP (He)      |          |               NP (wild)               |          |                    NP (civilization)                      |          |                    NP (sun)            |  
+   |         |          |          _________|_________          |          |             _______________|_________________             |          |             __________|________        |   
+PRP (He) VBD (went) IN (into)  DT (the)           JJ (wild)  CC (and) IN (through)   DT (the)                     NN (civilization) CC (and) IN (towards)   DT (the)            NN (sun) . (.)
+   |         |          |         |                   |         |          |            |                                 |            |          |            |                   |       |   
+   He       went       into      the                 wild      and      through        the                           civilization     and      towards        the                 sun      .  
+
+
+
+He nsubj went PRON []
+went ROOT went VERB [He, into, .]
+into prep went ADP [wild, and, through]
+the det wild DET []
+wild pobj into ADJ [the]
+and cc into CCONJ []
+through conj into ADP [civilization, and, towards]
+the det civilization DET []
+civilization pobj through NOUN [the]
+and cc through CCONJ []
+towards conj through ADP [sun]
+the det sun DET []
+sun pobj towards NOUN [the]
+. punct went PUNCT []
+            went                          
+  ___________|____                         
+ |   |           into                     
+ |   |    ________|________                
+ |   |   |   |          through           
+ |   |   |   |     ________|__________     
+ |   |   |   |    |        |       towards
+ |   |   |   |    |        |          |    
+ |   |   |  wild  |   civilization   sun  
+ |   |   |   |    |        |          |    
+ He  .  and the  and      the        the  
+
+
+
+He nsubj went PRON []
+went ROOT went VERB [He, into, .]
+into prep went ADP [wild, and, through, and, towards]
+the det wild DET []
+wild pobj into ADJ [the]
+and cc into CCONJ []
+through conj into ADP [civilization]
+the det civilization DET []
+civilization pobj through NOUN [the]
+and cc into CCONJ []
+towards conj into ADP [sun]
+the det sun DET []
+sun pobj towards NOUN [the]
+. punct went PUNCT []
+            went                          
+  ___________|____                         
+ |   |           into                     
+ |   |    ________|___________________     
+ |   |   |   |    |     through    towards
+ |   |   |   |    |        |          |    
+ |   |   |   |   wild civilization   sun  
+ |   |   |   |    |        |          |    
+ He  .  and and  the      the        the  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                     S                                   
+          ___________|_________________________________   
+         |                             VP              | 
+         |                  ___________|___            |  
+         NP                |               PP          | 
+  _______|___________      |       ________|___        |  
+ |      ADJP         |     |      |            NP      | 
+ |    ___|_____      |     |      |         ___|___    |  
+ DT  JJ  CC    JJ    NN   VBD     IN       DT      NN  . 
+ |   |   |     |     |     |      |        |       |   |  
+The big and  scary house shined under     the     sun  . 
+
+
+
+                                        S (shined)                                                                       
+                       _____________________|_________________________________________________________________________    
+                      |                                                    VP (shined)                                |  
+                      |                                  _______________________|__________                           |   
+                  NP (house)                            |                              PP (under)                     |  
+    __________________|_____________________            |            ______________________|_________                 |   
+   |              ADJP (big)                |           |           |                             NP (sun)            |  
+   |         _________|__________           |           |           |                       _________|________        |   
+DT (The) JJ (big)  CC (and)  JJ (scary) NN (house) VBD (shined) IN (under)              DT (the)           NN (sun) . (.)
+   |        |         |          |          |           |           |                      |                  |       |   
+  The      big       and       scary      house       shined      under                   the                sun      .  
+
+
+
+The det house DET []
+big amod house ADJ [and, scary]
+and cc big CCONJ []
+scary conj big ADJ []
+house nsubj shined NOUN [The, big]
+shined ROOT shined VERB [house, under, .]
+under prep shined ADP [sun]
+the det sun DET []
+sun pobj under NOUN [the]
+. punct shined PUNCT []
+        shined                
+  ________|________________    
+ |      house            under
+ |    ____|_____           |   
+ |   |         big        sun 
+ |   |     _____|____      |   
+ .  The  and       scary  the 
+
+
+
+The det house DET []
+big amod house ADJ [and, scary]
+and cc big CCONJ []
+scary conj big ADJ []
+house nsubj shined NOUN [The, big]
+shined ROOT shined VERB [house, under, .]
+under prep shined ADP [sun]
+the det sun DET []
+sun pobj under NOUN [the]
+. punct shined PUNCT []
+        shined                
+  ________|________________    
+ |      house            under
+ |    ____|_____           |   
+ |   |         big        sun 
+ |   |     _____|____      |   
+ .  The  and       scary  the 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                                   S                            
+                 __________________|__________________________   
+                S                       |       |             | 
+      __________|_____________          |       |             |  
+     S                |       |         |       S             | 
+  ___|____            |       |         |    ___|____         |  
+ |        VP          |       S         |   |        VP       | 
+ |    ____|_____      |    ___|____     |   |    ____|___     |  
+ NP  |          NP    |   NP       VP   |   NP  |       ADVP  | 
+ |   |          |     |   |        |    |   |   |        |    |  
+PRP VBZ        NNS    CC PRP      VBZ   CC PRP VBZ       RB   . 
+ |   |          |     |   |        |    |   |   |        |    |  
+ He eats     mangoes and  he     plays but she runs     fast  . 
+
+
+
+                                                                          S (eats)                                                           
+                                     ________________________________________|____________________________________________________________    
+                                 S (eats)                                              |                   |                              |  
+              ______________________|_____________________________                     |                   |                              |   
+          S (eats)                             |                  |                    |                S (runs)                          |  
+    _________|__________                       |                  |                    |          _________|__________                    |   
+   |                VP (eats)                  |              S (plays)                |         |                VP (runs)               |  
+   |          __________|___________           |         _________|__________          |         |          __________|__________         |   
+NP (He)      |                 NP (mangoes)    |     NP (he)             VP (plays)    |      NP (she)     |                ADVP (fast)   |  
+   |         |                      |          |        |                    |         |         |         |                     |        |   
+PRP (He) VBZ (eats)           NNS (mangoes) CC (and) PRP (he)           VBZ (plays) CC (but) PRP (she) VBZ (runs)            RB (fast)  . (.)
+   |         |                      |          |        |                    |         |         |         |                     |        |   
+   He       eats                 mangoes      and       he                 plays      but       she       runs                  fast      .  
+
+
+
+He nsubj eats PRON []
+eats ROOT eats VERB [He, mangoes, and, plays]
+mangoes dobj eats NOUN []
+and cc eats CCONJ []
+he nsubj plays PRON []
+plays conj eats VERB [he, but, runs, .]
+but cc plays CCONJ []
+she nsubj runs PRON []
+runs conj plays VERB [she, fast]
+fast advmod runs ADV []
+. punct plays PUNCT []
+                eats                        
+  _______________|_________                  
+ |     |     |           plays              
+ |     |     |    _________|________         
+ |     |     |   |    |    |       runs     
+ |     |     |   |    |    |     ___|____    
+ He mangoes and  he  but   .   she      fast
+
+
+
+He nsubj eats PRON []
+eats ROOT eats VERB [He, mangoes, and, plays, but, runs, .]
+mangoes dobj eats NOUN []
+and cc eats CCONJ []
+he nsubj plays PRON []
+plays conj eats VERB [he]
+but cc eats CCONJ []
+she nsubj runs PRON []
+runs conj eats VERB [she, fast]
+fast advmod runs ADV []
+. punct eats PUNCT []
+                eats                        
+  _______________|__________________         
+ |     |     |   |    |  plays     runs     
+ |     |     |   |    |    |     ___|____    
+ He mangoes and but   .    he  she      fast
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                      S                                
+  ____________________|______________________________   
+ |                    VP                             | 
+ |    ________________|________                      |  
+ |   |     |                   PP                    | 
+ |   |     |      _____________|____                 |  
+ |   |     |     |                  NP               | 
+ |   |     |     |         _________|____            |  
+ |   |     |     |        |              PP          | 
+ |   |     |     |        |          ____|___        |  
+ NP  |    ADVP   |        NP        |        NP      | 
+ |   |     |     |     ___|____     |     ___|___    |  
+PRP VBD    RB    IN   DT       NN   IN   DT      NN  . 
+ |   |     |     |    |        |    |    |       |   |  
+ He ran quickly over  a      truck with  a      car  . 
+
+
+
+                                            S (ran)                                                                    
+    ___________________________________________|____________________________________________________________________    
+   |                                        VP (ran)                                                                |  
+   |          _________________________________|____________________                                                |   
+   |         |           |                                      PP (over)                                           |  
+   |         |           |             _____________________________|__________                                     |   
+   |         |           |            |                                    NP (truck)                               |  
+   |         |           |            |                   _____________________|__________                          |   
+   |         |           |            |                  |                            PP (with)                     |  
+   |         |           |            |                  |                      __________|________                 |   
+NP (He)      |     ADVP (quickly)     |              NP (truck)                |                NP (car)            |  
+   |         |           |            |         _________|__________           |           ________|________        |   
+PRP (He) VBD (ran)  RB (quickly)  IN (over)  DT (a)             NN (truck) IN (with)    DT (a)           NN (car) . (.)
+   |         |           |            |        |                    |          |          |                 |       |   
+   He       ran       quickly        over      a                  truck       with        a                car      .  
+
+
+
+He nsubj ran PRON []
+ran ROOT ran VERB [He, quickly, over, .]
+quickly advmod ran ADV []
+over prep ran ADP [truck]
+a det truck DET []
+truck pobj over NOUN [a, with]
+with prep truck ADP [car]
+a det car DET []
+car pobj with NOUN [a]
+. punct ran PUNCT []
+            ran               
+  ___________|________         
+ |     |     |       over     
+ |     |     |        |        
+ |     |     |      truck     
+ |     |     |    ____|____    
+ |     |     |   |        with
+ |     |     |   |         |   
+ |     |     |   |        car 
+ |     |     |   |         |   
+ He quickly  .   a         a  
+
+
+
+He nsubj ran PRON []
+ran ROOT ran VERB [He, quickly, over, .]
+quickly advmod ran ADV []
+over prep ran ADP [truck]
+a det truck DET []
+truck pobj over NOUN [a, with]
+with prep truck ADP [car]
+a det car DET []
+car pobj with NOUN [a]
+. punct ran PUNCT []
+            ran               
+  ___________|________         
+ |     |     |       over     
+ |     |     |        |        
+ |     |     |      truck     
+ |     |     |    ____|____    
+ |     |     |   |        with
+ |     |     |   |         |   
+ |     |     |   |        car 
+ |     |     |   |         |   
+ He quickly  .   a         a  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+              S                      
+  ____________|____________________   
+ |            VP                   | 
+ |    ________|______________      |  
+ NP  |    NP      NP        ADVP   | 
+ |   |    |    ___|___       |     |  
+PRP VBD  PRP  DT      NN     RB    . 
+ |   |    |   |       |      |     |  
+ He gave  me  a      slap swiftly  . 
+
+
+
+                              S (gave)                                         
+    _____________________________|__________________________________________    
+   |                         VP (gave)                                      |  
+   |          ___________________|_______________________________           |   
+NP (He)      |      NP (me)            NP (slap)           ADVP (swiftly)   |  
+   |         |         |          _________|_________            |          |   
+PRP (He) VBD (gave) PRP (me)   DT (a)            NN (slap)  RB (swiftly)  . (.)
+   |         |         |         |                   |           |          |   
+   He       gave       me        a                  slap      swiftly       .  
+
+
+
+He nsubj gave PRON []
+gave ROOT gave VERB [He, me, slap, swiftly, .]
+me dative gave PRON []
+a det slap DET []
+slap dobj gave NOUN [a]
+swiftly advmod gave ADV []
+. punct gave PUNCT []
+          gave          
+  _________|_________    
+ |   |     |     |  slap
+ |   |     |     |   |   
+ He  me swiftly  .   a  
+
+
+
+He nsubj gave PRON []
+gave ROOT gave VERB [He, me, slap, swiftly, .]
+me dobj gave PRON []
+a det slap DET []
+slap dobj gave NOUN [a]
+swiftly advmod gave ADV []
+. punct gave PUNCT []
+          gave          
+  _________|_________    
+ |   |     |     |  slap
+ |   |     |     |   |   
+ He  me swiftly  .   a  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                           S                    
+               ____________|__________________   
+              NP                     |        | 
+      ________|_______               |        |  
+     |                PP             VP       | 
+     |             ___|____       ___|___     |  
+     NP           |        NP    |      ADVP  | 
+  ___|___         |        |     |       |    |  
+ DT      NN       IN       NN   VBZ      RB   . 
+ |       |        |        |     |       |    |  
+The     time     for     action  is     now   . 
+
+
+
+                                                            S (is)                                    
+                                  ____________________________|____________________________________    
+                             NP (time)                                           |                 |  
+              ___________________|_________________                              |                 |   
+             |                                  PP (for)                      VP (is)              |  
+             |                             ________|__________           ________|________         |   
+         NP (time)                        |              NP (action)    |             ADVP (now)   |  
+    _________|_________                   |                   |         |                 |        |   
+DT (The)           NN (time)           IN (for)          NN (action) VBZ (is)          RB (now)  . (.)
+   |                   |                  |                   |         |                 |        |   
+  The                 time               for                action      is               now       .  
+
+
+
+The det time DET []
+time nsubj is NOUN [The, for]
+for prep time ADP [action]
+action pobj for NOUN []
+is ROOT is AUX [time, now, .]
+now advmod is ADV []
+. punct is PUNCT []
+     is                
+  ___|_______           
+ |   |      time       
+ |   |    ___|_____     
+ |   |   |        for  
+ |   |   |         |    
+now  .  The      action
+
+
+
+The det time DET []
+time nsubj is NOUN [The, for]
+for prep time ADP [action]
+action pobj for NOUN []
+is ROOT is VERB [time, now, .]
+now advmod is ADV []
+. punct is PUNCT []
+     is                
+  ___|_______           
+ |   |      time       
+ |   |    ___|_____     
+ |   |   |        for  
+ |   |   |         |    
+now  .  The      action
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                   S                             
+  _________________|___________________________   
+ |                 VP                          | 
+ |    _____________|____                       |  
+ |   |    |            ADJP                    | 
+ |   |    |     ________|____                  |  
+ |   |    |    |   |         S                 | 
+ |   |    |    |   |         |                 |  
+ |   |    |    |   |         VP                | 
+ |   |    |    |   |     ____|___              |  
+ |   |    |    |   |    |        VP            | 
+ |   |    |    |   |    |     ___|______       |  
+ NP  |   ADVP  |   |    |    |          NP     | 
+ |   |    |    |   |    |    |          |      |  
+PRP VBZ   RB   RB  JJ   TO   VB         NN     . 
+ |   |    |    |   |    |    |          |      |  
+ It  's never too late  to   do     something  . 
+
+
+
+                                          S ('s)                                                  
+    ________________________________________|__________________________________________________    
+   |                                     VP ('s)                                               |  
+   |         _______________________________|__________                                        |   
+   |        |          |                          ADJP (late)                                  |  
+   |        |          |           ____________________|_________                              |   
+   |        |          |          |         |                  S (do)                          |  
+   |        |          |          |         |                    |                             |   
+   |        |          |          |         |                 VP (do)                          |  
+   |        |          |          |         |           _________|_______                      |   
+   |        |          |          |         |          |              VP (do)                  |  
+   |        |          |          |         |          |          _______|__________           |   
+NP (It)     |     ADVP (never)    |         |          |         |            NP (something)   |  
+   |        |          |          |         |          |         |                  |          |   
+PRP (It) VBZ ('s)  RB (never)  RB (too) JJ (late)   TO (to)   VB (do)         NN (something) . (.)
+   |        |          |          |         |          |         |                  |          |   
+   It       's       never       too       late        to        do             something      .  
+
+
+
+It nsubj 's PRON []
+'s ROOT 's AUX [It, never, late, .]
+never neg 's ADV []
+too advmod late ADV []
+late acomp 's ADJ [too, do]
+to aux do PART []
+do xcomp late AUX [to, something]
+something dobj do PRON []
+. punct 's PUNCT []
+           's                       
+  _________|_______                  
+ |    |    |      late              
+ |    |    |    ___|____             
+ |    |    |   |        do          
+ |    |    |   |    ____|______      
+ It never  .  too  to      something
+
+
+
+It nsubj 's PRON []
+'s ROOT 's VERB [It, never, late, .]
+never advmod 's ADV []
+too advmod late ADV []
+late acomp 's ADJ [too, do]
+to aux do PART []
+do xcomp late VERB [to, something]
+something dobj do NOUN []
+. punct 's PUNCT []
+           's                       
+  _________|_______                  
+ |    |    |      late              
+ |    |    |    ___|____             
+ |    |    |   |        do          
+ |    |    |   |    ____|______      
+ It never  .  too  to      something
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                                S                                               
+   _____________________________|_____________________________________________   
+  |                             VP                                            | 
+  |      _______________________|___                                          |  
+  |     |                           VP                                        | 
+  |     |     ______________________|_________________________________        |  
+  |     |    |        |                 PP                            |       | 
+  |     |    |        |          _______|_______                      |       |  
+  NP    |    |        NP        |               NP                    NP      | 
+  |     |    |     ___|____     |    ___________|__________        ___|___    |  
+ NNP    MD   VB   DT       NN   IN  DT          JJ         NN    NNP      CD  . 
+  |     |    |    |        |    |   |           |          |      |       |   |  
+Vinken will join the     board  as  a      nonexecutive director Nov      29  . 
+
+
+
+                                                                 S (join)                                                                                   
+      ______________________________________________________________|____________________________________________________________________________________    
+     |                                                          VP (join)                                                                                |  
+     |            __________________________________________________|_________                                                                           |   
+     |           |                                                        VP (join)                                                                      |  
+     |           |          __________________________________________________|__________________________________________________________                |   
+     |           |         |                  |                                     PP (as)                                              |               |  
+     |           |         |                  |                      __________________|____________                                     |               |   
+NP (Vinken)      |         |              NP (board)                |                         NP (director)                           NP (Nov)           |  
+     |           |         |         _________|__________           |          _____________________|_______________             ________|________       |   
+NNP (Vinken) MD (will) VB (join) DT (the)            NN (board)  IN (as)    DT (a)          JJ (nonexecutive) NN (director) NNP (Nov)          CD (29) . (.)
+     |           |         |        |                    |          |         |                     |               |           |                 |      |   
+   Vinken       will      join     the                 board        as        a                nonexecutive      director      Nov                29     .  
+
+
+
+Vinken nsubj join PROPN []
+will aux join VERB []
+join ROOT join VERB [Vinken, will, board, as, Nov, .]
+the det board DET []
+board dobj join NOUN [the]
+as prep join SCONJ [director]
+a det director DET []
+nonexecutive amod director ADJ []
+director pobj as NOUN [a, nonexecutive]
+Nov npadvmod join PROPN [29]
+29 nummod Nov NUM []
+. punct join PUNCT []
+                 join                              
+   _______________|______________________________   
+  |     |    |    |          as                  | 
+  |     |    |    |          |                   |  
+  |     |    |  board     director              Nov
+  |     |    |    |     _____|__________         |  
+Vinken will  .   the   a           nonexecutive  29
+
+
+
+Vinken nsubj join PROPN []
+will aux join VERB []
+join ROOT join VERB [Vinken, will, board, as, Nov, .]
+the det board DET []
+board dobj join NOUN [the]
+as prep join ADP [director]
+a det director DET []
+nonexecutive amod director ADJ []
+director pobj as NOUN [a, nonexecutive]
+Nov dobj join PROPN [29]
+29 nummod Nov NUM []
+. punct join PUNCT []
+                 join                              
+   _______________|______________________________   
+  |     |    |    |          as                  | 
+  |     |    |    |          |                   |  
+  |     |    |  board     director              Nov
+  |     |    |    |     _____|__________         |  
+Vinken will  .   the   a           nonexecutive  29
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+           S                       
+  _________|_____________________   
+ |              VP               | 
+ |     _________|___             |  
+ |    |             VP           | 
+ |    |     ________|___         |  
+ |    |    |            S        | 
+ |    |    |            |        |  
+ |    |    |            VP       | 
+ |    |    |         ___|___     |  
+ NP   |    |        |       VP   | 
+ |    |    |        |       |    |  
+PRP   MD   VB       TO      VB   . 
+ |    |    |        |       |    |  
+ I  would like      to     join  . 
+
+
+
+                    S (like)                                              
+    ___________________|_______________________________________________    
+   |                         VP (like)                                 |  
+   |         ____________________|_________                            |   
+   |        |                          VP (like)                       |  
+   |        |           ___________________|_________                  |   
+   |        |          |                          S (join)             |  
+   |        |          |                             |                 |   
+   |        |          |                         VP (join)             |  
+   |        |          |                    _________|_________        |   
+ NP (I)     |          |                   |               VP (join)   |  
+   |        |          |                   |                   |       |   
+PRP (I) MD (would) VB (like)            TO (to)            VB (join) . (.)
+   |        |          |                   |                   |       |   
+   I      would       like                 to                 join     .  
+
+
+
+I nsubj like PRON []
+would aux like VERB []
+like ROOT like VERB [I, would, join, .]
+to aux join PART []
+join xcomp like VERB [to]
+. punct like PUNCT []
+     like         
+  ____|________    
+ |    |    |  join
+ |    |    |   |   
+ I  would  .   to 
+
+
+
+I nsubj like PRON []
+would aux like VERB []
+like ROOT like VERB [I, would, join, .]
+to aux join PART []
+join xcomp like VERB [to]
+. punct like PUNCT []
+     like         
+  ____|________    
+ |    |    |  join
+ |    |    |   |   
+ I  would  .   to 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+              S                       
+  ____________|_____________________   
+ |            VP                    | 
+ |    ________|____                 |  
+ |   |    |        VP               | 
+ |   |    |    ____|_______         |  
+ |   |    |   |    |       PP       | 
+ |   |    |   |    |    ___|___     |  
+ NP  |    |   |   PRT  |       NP   | 
+ |   |    |   |    |   |       |    |  
+PRP  MD   RB  VB   RP  TO     PRP   . 
+ |   |    |   |    |   |       |    |  
+ I  will not give  in  to     them  . 
+
+
+
+                            S (give)                                           
+    ___________________________|____________________________________________    
+   |                       VP (give)                                        |  
+   |         __________________|_________                                   |   
+   |        |        |               VP (give)                              |  
+   |        |        |          _________|________________                  |   
+   |        |        |         |         |             PP (to)              |  
+   |        |        |         |         |         _______|________         |   
+ NP (I)     |        |         |      PRT (in)    |            NP (them)    |  
+   |        |        |         |         |        |                |        |   
+PRP (I) MD (will) RB (not) VB (give)  RP (in)  TO (to)         PRP (them) . (.)
+   |        |        |         |         |        |                |        |   
+   I       will     not       give       in       to              them      .  
+
+
+
+I nsubj give PRON []
+will aux give VERB []
+not neg give PART []
+give ROOT give VERB [I, will, not, in, to, .]
+in prt give ADP []
+to prep give PART [them]
+them pobj to PRON []
+. punct give PUNCT []
+         give             
+  ________|____________    
+ |   |    |    |   |   to 
+ |   |    |    |   |   |   
+ I  will not   in  .  them
+
+
+
+I nsubj give PRON []
+will aux give VERB []
+not advmod give ADV []
+give ROOT give VERB [I, will, not, in, to, .]
+in prt give ADP []
+to prep give PART [them]
+them pobj to PRON []
+. punct give PUNCT []
+         give             
+  ________|____________    
+ |   |    |    |   |   to 
+ |   |    |    |   |   |   
+ I  will not   in  .  them
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+              S                
+       _______|______________   
+      |           VP         | 
+      |        ___|____      |  
+      NP      |        VP    | 
+  ____|___    |        |     |  
+PRP$      NN VBD      VBN    . 
+ |        |   |        |     |  
+His      car was     broken  . 
+
+
+
+                             S (broken)                               
+               __________________|_________________________________    
+              |                         VP (broken)                |  
+              |                   ___________|___________          |   
+           NP (car)              |                  VP (broken)    |  
+     _________|________          |                       |         |   
+PRP$ (His)          NN (car) VBD (was)              VBN (broken) . (.)
+    |                  |         |                       |         |   
+   His                car       was                    broken      .  
+
+
+
+His poss car DET []
+car nsubjpass broken NOUN [His]
+was auxpass broken AUX []
+broken ROOT broken VERB [car, was, .]
+. punct broken PUNCT []
+    broken    
+  ____|_____   
+ |    |    car
+ |    |     |  
+was   .    His
+
+
+
+His det car DET []
+car nsubj broken NOUN [His]
+was aux broken VERB []
+broken ROOT broken VERB [car, was, .]
+. punct broken PUNCT []
+    broken    
+  ____|_____   
+ |    |    car
+ |    |     |  
+was   .    His
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                   S                          
+      _____________|________________________   
+     |                    VP                | 
+     |        ____________|___              |  
+     |       |                VP            | 
+     |       |      __________|___          |  
+     NP      |     |              NP        | 
+  ___|___    |     |           ___|____     |  
+ DT      NN VBZ   VBG         DT      NNS   . 
+ |       |   |     |          |        |    |  
+The     man  is charming     the     girls  . 
+
+
+
+                                     S (charming)                                                          
+             _____________________________|_____________________________________________________________    
+            |                                      VP (charming)                                        |  
+            |                  __________________________|_____________                                 |   
+            |                 |                                  VP (charming)                          |  
+            |                 |            ____________________________|___________                     |   
+         NP (man)             |           |                                    NP (girls)               |  
+    ________|________         |           |                             ___________|___________         |   
+DT (The)          NN (man) VBZ (is) VBG (charming)                  DT (the)              NNS (girls) . (.)
+   |                 |        |           |                            |                       |        |   
+  The               man       is       charming                       the                    girls      .  
+
+
+
+The det man DET []
+man nsubj charming NOUN [The]
+is aux charming AUX []
+charming ROOT charming VERB [man, is, girls, .]
+the det girls DET []
+girls dobj charming NOUN [the]
+. punct charming PUNCT []
+    charming          
+  _____|___________    
+ |     |     man girls
+ |     |      |    |   
+ is    .     The  the 
+
+
+
+The det man DET []
+man nsubj charming NOUN [The]
+is aux charming VERB []
+charming ROOT charming VERB [man, is, girls, .]
+the det girls DET []
+girls dobj charming NOUN [the]
+. punct charming PUNCT []
+    charming          
+  _____|___________    
+ |     |     man girls
+ |     |      |    |   
+ is    .     The  the 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+             S                  
+      _______|________________   
+     |           VP           | 
+     |        ___|_____       |  
+     NP      |        ADJP    | 
+  ___|___    |         |      |  
+ DT      NN VBZ        JJ     . 
+ |       |   |         |      |  
+The     man  is     charming  . 
+
+
+
+                            S (is)                               
+             _________________|_______________________________    
+            |                       VP (is)                   |  
+            |                  ________|___________           |   
+         NP (man)             |             ADJP (charming)   |  
+    ________|________         |                    |          |   
+DT (The)          NN (man) VBZ (is)          JJ (charming)  . (.)
+   |                 |        |                    |          |   
+  The               man       is                charming      .  
+
+
+
+The det man DET []
+man nsubj is NOUN [The]
+is ROOT is AUX [man, charming, .]
+charming acomp is ADJ []
+. punct is PUNCT []
+          is    
+    ______|___   
+   |      |  man
+   |      |   |  
+charming  .  The
+
+
+
+The det man DET []
+man nsubj is NOUN [The]
+is ROOT is VERB [man, charming, .]
+charming acomp is ADJ []
+. punct is PUNCT []
+          is    
+    ______|___   
+   |      |  man
+   |      |   |  
+charming  .  The
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                        S                                    
+            ____________|__________________________________   
+           NP                          VP                  | 
+      _____|________           ________|___                |  
+     |              PP        |            VP              | 
+     |           ___|___      |     _______|___            |  
+     NP         |       NP    |    |           NP          | 
+  ___|_____     |       |     |    |        ___|_____      |  
+ DT  JJ    NN   IN      DT    MD   VB      CD       NNS    . 
+ |   |     |    |       |     |    |       |         |     |  
+ A  high price for     this would  be      40     dollars  . 
+
+
+
+                                                 S (be)                                                                     
+                       ____________________________|_____________________________________________________________________    
+                  NP (price)                                                VP (be)                                      |  
+            __________|__________________                     _________________|_______                                  |   
+           |                          PP (for)               |                      VP (be)                              |  
+           |                     ________|_________          |          _______________|_________                        |   
+       NP (price)               |              NP (this)     |         |                    NP (dollars)                 |  
+   ________|__________          |                  |         |         |                _________|_____________          |   
+DT (A) JJ (high)  NN (price) IN (for)          DT (this) MD (would) VB (be)         CD (40)              NNS (dollars) . (.)
+  |        |          |         |                  |         |         |               |                       |         |   
+  A       high      price      for                this     would       be              40                   dollars      .  
+
+
+
+A det price DET []
+high amod price ADJ []
+price nsubj be NOUN [A, high, for]
+for prep price ADP [this]
+this pobj for DET []
+would aux be VERB []
+be ROOT be AUX [price, would, dollars, .]
+40 nummod dollars NUM []
+dollars attr be NOUN [40]
+. punct be PUNCT []
+           be                   
+   ________|________________     
+  |    |      price         |   
+  |    |    ____|____       |    
+  |    |   |    |   for  dollars
+  |    |   |    |    |      |    
+would  .   A   high this    40  
+
+
+
+A det price DET []
+high amod price ADJ []
+price nsubj be NOUN [A, high, for]
+for prep price ADP [this]
+this pobj for DET []
+would aux be VERB []
+be ROOT be VERB [price, would, dollars, .]
+40 nummod dollars NUM []
+dollars dobj be NOUN [40]
+. punct be PUNCT []
+           be                   
+   ________|________________     
+  |    |      price         |   
+  |    |    ____|____       |    
+  |    |   |    |   for  dollars
+  |    |   |    |    |      |    
+would  .   A   high this    40  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                     SBARQ                             
+   ____________________|_____________________________   
+  |                    SQ                            | 
+  |      ______________|_____                        |  
+  |     |   |                VP                      | 
+  |     |   |     ___________|____                   |  
+  |     |   |    |                S                  | 
+  |     |   |    |                |                  |  
+  |     |   |    |                VP                 | 
+  |     |   |    |      __________|___               |  
+  |     |   |    |     |              VP             | 
+  |     |   |    |     |      ________|___           |  
+WHADVP  |   NP   |     |     |            NP         | 
+  |     |   |    |     |     |         ___|____      |  
+ WRB   VBP PRP  VBG    TO    VB       DT       NN    . 
+  |     |   |    |     |     |        |        |     |  
+ When  are  we going   to  visit     the     temple  ? 
+
+
+
+                                             SBARQ (are)                                                               
+       ___________________________________________|_________________________________________________________________    
+      |                                        SQ (are)                                                             |  
+      |            _______________________________|__________                                                       |   
+      |           |        |                             VP (going)                                                 |  
+      |           |        |           ______________________|__________                                            |   
+      |           |        |          |                             S (visit)                                       |  
+      |           |        |          |                                 |                                           |   
+      |           |        |          |                             VP (visit)                                      |  
+      |           |        |          |            _____________________|__________                                 |   
+      |           |        |          |           |                            VP (visit)                           |  
+      |           |        |          |           |           _____________________|___________                     |   
+WHADVP (When)     |     NP (we)       |           |          |                            NP (temple)               |  
+      |           |        |          |           |          |                      ___________|___________         |   
+  WRB (When)  VBP (are) PRP (we) VBG (going)   TO (to)   VB (visit)             DT (the)              NN (temple) . (?)
+      |           |        |          |           |          |                     |                       |        |   
+     When        are       we       going         to       visit                  the                    temple     ?  
+
+
+
+When advmod going ADV []
+are aux going AUX []
+we nsubj going PRON []
+going ROOT going VERB [When, are, we, visit, ?]
+to aux visit PART []
+visit xcomp going VERB [to, temple]
+the det temple DET []
+temple dobj visit NOUN [the]
+? punct going PUNCT []
+         going                     
+  _________|_____________           
+ |    |    |    |      visit       
+ |    |    |    |    ____|_____     
+ |    |    |    |   |        temple
+ |    |    |    |   |          |    
+When are   we   ?   to        the  
+
+
+
+When advmod are ADV []
+are ROOT are VERB [When, we, going, ?]
+we nsubj are PRON []
+going aux are VERB [visit]
+to aux visit PART []
+visit xcomp going VERB [to, temple]
+the det temple DET []
+temple dobj visit NOUN [the]
+? punct are PUNCT []
+         are                 
+  ________|________           
+ |    |   |      going       
+ |    |   |        |          
+ |    |   |      visit       
+ |    |   |    ____|_____     
+ |    |   |   |        temple
+ |    |   |   |          |    
+When  we  ?   to        the  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------

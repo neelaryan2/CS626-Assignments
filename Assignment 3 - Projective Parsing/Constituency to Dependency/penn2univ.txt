@@ -1,0 +1,48 @@
+#	=>	SYM	_	#
+$	=>	SYM	_	$, C$, US$, A$, HK$
+''	=>	PUNCT	PunctSide=Fin|PunctType=Quot	'', '
+,	=>	PUNCT	PunctType=Comm	,, 2, an
+-LRB-	=>	PUNCT	PunctSide=Ini|PunctType=Brck	
+-RRB-	=>	PUNCT	PunctSide=Fin|PunctType=Brck	
+.	=>	PUNCT	PunctType=Peri	., ?, !
+:	=>	PUNCT	_	--, :, ;, ..., -
+AFX	=>	ADJ	Hyph=Yes	
+CC	=>	CCONJ	_	and, or, but, &, nor
+CD	=>	NUM	NumType=Card	million, billion, one, two, three
+DT	=>	DET	_	the, a, an, this, some
+EX	=>	PRON	AdvType=Ex	there
+FW	=>	X	Foreign=Yes	de, perestroika, glasnost, vs., naczelnik
+HYPH	=>	PUNCT	PunctType=Dash	
+IN	=>	ADP	_	of, in, for, on, that
+JJ	=>	ADJ	Degree=Pos	new, other, last, such, first
+JJR	=>	ADJ	Degree=Cmp	more, higher, lower, less, better
+JJS	=>	ADJ	Degree=Sup	most, least, largest, latest, best
+LS	=>	X	NumType=Ord	3, 2, 1, 4, First
+MD	=>	VERB	VerbType=Mod	will, would, could, can, may
+NIL	=>	X	_	), }
+NN	=>	NOUN	Number=Sing	%, company, year, market, share
+NNP	=>	PROPN	Number=Sing	Mr., U.S., Corp., New, Inc.
+NNPS	=>	PROPN	Number=Plur	Securities, Democrats, Americans, Brothers, Airlines
+NNS	=>	NOUN	Number=Plur	years, shares, sales, companies, prices
+PDT	=>	DET	AdjType=Pdt	all, such, half, both, nary
+POS	=>	PART	Poss=Yes	's, '
+PRP	=>	PRON	PronType=Prs	it, he, they, I, we
+PRP$	=>	DET	Poss=Yes|PronType=Prs	its, his, their, our, her
+RB	=>	ADV	Degree=Pos	n't, not, also, only, as
+RBR	=>	ADV	Degree=Cmp	more, earlier, less, higher, further
+RBS	=>	ADV	Degree=Sup	most, best, least, hardest, Worst
+RP	=>	ADP	PartType=Vbp	up, out, off, down, in
+SYM	=>	SYM	_	a, c, \*, \*\*, b
+TO	=>	PART	PartType=Inf|VerbForm=Inf	to, na
+UH	=>	INTJ	_	yes, well, no, OK, oh
+VB	=>	VERB	VerbForm=Inf	be, have, make, buy, get
+VBD	=>	VERB	Tense=Past|VerbForm=Fin	said, was, were, had, did
+VBG	=>	VERB	Aspect=Prog|Tense=Pres|VerbForm=Part	including, being, according, going, making
+VBN	=>	VERB	Aspect=Perf|Tense=Past|VerbForm=Part	been, expected, made, based, sold
+VBP	=>	VERB	Tense=Pres|VerbForm=Fin	are, have, do, say, 're
+VBZ	=>	VERB	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	is, has, says, 's, does
+WDT	=>	DET	PronType=Int,Rel	which, that, what, whatever, .what
+WP	=>	PRON	PronType=Int,Rel	who, what, whom, whoever
+WP$	=>	DET	Poss=Yes|PronType=Int,Rel	whose
+WRB	=>	ADV	PronType=Int,Rel	when, how, where, why, whenever
+``	=>	PUNCT	PunctSide=Ini|PunctType=Quot	``, `, non-``
