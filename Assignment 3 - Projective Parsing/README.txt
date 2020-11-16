@@ -16,4 +16,5 @@ Constituency to Dependency
 - output.txt contains the constituency and dependency parses of some sample sentences along with headified cp trees
 
 Dependency to Constituency
-- 
+- spacy==2.3.2
+- nltk==3.5
