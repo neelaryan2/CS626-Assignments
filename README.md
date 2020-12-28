@@ -1,4 +1,4 @@
-# CS 626
+# CS626-Assignments
 All code done by me and my teammates as a part of CS626, Fall 2020, IIT Bombay CSE.  
 CS626 : Speech and Natural Language Processing and the Web
 
